@@ -2,6 +2,7 @@ import CA "mo:candb/CanisterActions";
 import CanDB "mo:candb/CanDB";
 import Entity "mo:candb/Entity";
 
+// テスト
 shared ({ caller = owner }) actor class HelloService({
   // the primary key of this canister
   partitionKey: Text;
